@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2099DD405848F37EA9C837B0 /* Pods_SpotifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5899BC2CF6960412495FE53 /* Pods_SpotifeTests.framework */; };
 		357456B31DD68AA80076C890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357456B21DD68AA80076C890 /* AppDelegate.swift */; };
-		357456B51DD68AA80076C890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357456B41DD68AA80076C890 /* ViewController.swift */; };
+		357456B51DD68AA80076C890 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357456B41DD68AA80076C890 /* TableViewController.swift */; };
 		357456B81DD68AA90076C890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357456B61DD68AA90076C890 /* Main.storyboard */; };
 		357456BA1DD68AAA0076C890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357456B91DD68AAA0076C890 /* Assets.xcassets */; };
 		357456BD1DD68AAB0076C890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357456BB1DD68AAB0076C890 /* LaunchScreen.storyboard */; };
 		357456C81DD68AAD0076C890 /* SpotifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357456C71DD68AAC0076C890 /* SpotifeTests.swift */; };
 		357456D31DD68AAD0076C890 /* SpotifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357456D21DD68AAD0076C890 /* SpotifeUITests.swift */; };
+		357456E11DD69E5C0076C890 /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357456E01DD69E5C0076C890 /* AudioVC.swift */; };
+		76A6BBF851CB3A426373AF21 /* Pods_Spotife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88ACE620A1F85C284341EA4 /* Pods_Spotife.framework */; };
+		7FF87C6F5A091BA87381D185 /* Pods_SpotifeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F96EF3B84BDEAE8C210E679 /* Pods_SpotifeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B6E60214C7EAEDC19C1A33C /* Pods-Spotife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotife.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spotife/Pods-Spotife.release.xcconfig"; sourceTree = "<group>"; };
 		357456AF1DD68AA80076C890 /* Spotife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		357456B21DD68AA80076C890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		357456B41DD68AA80076C890 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		357456B41DD68AA80076C890 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		357456B71DD68AA90076C890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		357456B91DD68AAA0076C890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357456BC1DD68AAB0076C890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		357456CE1DD68AAD0076C890 /* SpotifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		357456D21DD68AAD0076C890 /* SpotifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifeUITests.swift; sourceTree = "<group>"; };
 		357456D41DD68AAD0076C890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357456E01DD69E5C0076C890 /* AudioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
+		6F96EF3B84BDEAE8C210E679 /* Pods_SpotifeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A909366F68C4603294A460 /* Pods-SpotifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotifeUITests/Pods-SpotifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95A7A8A9C0D20153471C29F9 /* Pods-SpotifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotifeTests/Pods-SpotifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FEB9FA202896687219B5A63 /* Pods-Spotife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spotife/Pods-Spotife.debug.xcconfig"; sourceTree = "<group>"; };
+		A912CC6D2CBA3F8DDF685F1D /* Pods-SpotifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotifeTests/Pods-SpotifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5899BC2CF6960412495FE53 /* Pods_SpotifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88ACE620A1F85C284341EA4 /* Pods_Spotife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E3CC87AA07DC08902C39DE /* Pods-SpotifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotifeUITests/Pods-SpotifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A6BBF851CB3A426373AF21 /* Pods_Spotife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2099DD405848F37EA9C837B0 /* Pods_SpotifeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF87C6F5A091BA87381D185 /* Pods_SpotifeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				357456C61DD68AAC0076C890 /* SpotifeTests */,
 				357456D11DD68AAD0076C890 /* SpotifeUITests */,
 				357456B01DD68AA80076C890 /* Products */,
+				C66D153260BC4B5CF6C4D2F1 /* Pods */,
+				59B333CE35DA082C1D33258A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +117,12 @@
 			isa = PBXGroup;
 			children = (
 				357456B21DD68AA80076C890 /* AppDelegate.swift */,
-				357456B41DD68AA80076C890 /* ViewController.swift */,
+				357456B41DD68AA80076C890 /* TableViewController.swift */,
 				357456B61DD68AA90076C890 /* Main.storyboard */,
 				357456B91DD68AAA0076C890 /* Assets.xcassets */,
 				357456BB1DD68AAB0076C890 /* LaunchScreen.storyboard */,
 				357456BE1DD68AAB0076C890 /* Info.plist */,
+				357456E01DD69E5C0076C890 /* AudioVC.swift */,
 			);
 			path = Spotife;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = SpotifeUITests;
 			sourceTree = "<group>";
 		};
+		59B333CE35DA082C1D33258A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88ACE620A1F85C284341EA4 /* Pods_Spotife.framework */,
+				C5899BC2CF6960412495FE53 /* Pods_SpotifeTests.framework */,
+				6F96EF3B84BDEAE8C210E679 /* Pods_SpotifeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C66D153260BC4B5CF6C4D2F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FEB9FA202896687219B5A63 /* Pods-Spotife.debug.xcconfig */,
+				2B6E60214C7EAEDC19C1A33C /* Pods-Spotife.release.xcconfig */,
+				95A7A8A9C0D20153471C29F9 /* Pods-SpotifeTests.debug.xcconfig */,
+				A912CC6D2CBA3F8DDF685F1D /* Pods-SpotifeTests.release.xcconfig */,
+				F3E3CC87AA07DC08902C39DE /* Pods-SpotifeUITests.debug.xcconfig */,
+				80A909366F68C4603294A460 /* Pods-SpotifeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 357456D71DD68AAD0076C890 /* Build configuration list for PBXNativeTarget "Spotife" */;
 			buildPhases = (
+				1711D356F67DC66E7BD2DDAD /* [CP] Check Pods Manifest.lock */,
 				357456AB1DD68AA80076C890 /* Sources */,
 				357456AC1DD68AA80076C890 /* Frameworks */,
 				357456AD1DD68AA80076C890 /* Resources */,
+				2B31B71F5965A33D065D43EB /* [CP] Embed Pods Frameworks */,
+				2EDA74AFB11A8F525C46CD60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 357456DA1DD68AAD0076C890 /* Build configuration list for PBXNativeTarget "SpotifeTests" */;
 			buildPhases = (
+				B90FE853110B8AD672BC1870 /* [CP] Check Pods Manifest.lock */,
 				357456BF1DD68AAC0076C890 /* Sources */,
 				357456C01DD68AAC0076C890 /* Frameworks */,
 				357456C11DD68AAC0076C890 /* Resources */,
+				C24E73EB6BDECEB034B11825 /* [CP] Embed Pods Frameworks */,
+				72CC31A8027793915B74EA4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 357456DD1DD68AAD0076C890 /* Build configuration list for PBXNativeTarget "SpotifeUITests" */;
 			buildPhases = (
+				74240E7EA338919208EE49AD /* [CP] Check Pods Manifest.lock */,
 				357456CA1DD68AAD0076C890 /* Sources */,
 				357456CB1DD68AAD0076C890 /* Frameworks */,
 				357456CC1DD68AAD0076C890 /* Resources */,
+				CA6E615D6443CB4FDA6CDAF7 /* [CP] Embed Pods Frameworks */,
+				3810BB37C7256EE89FF3B2CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +309,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1711D356F67DC66E7BD2DDAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B31B71F5965A33D065D43EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spotife/Pods-Spotife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EDA74AFB11A8F525C46CD60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spotife/Pods-Spotife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3810BB37C7256EE89FF3B2CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotifeUITests/Pods-SpotifeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72CC31A8027793915B74EA4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotifeTests/Pods-SpotifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74240E7EA338919208EE49AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B90FE853110B8AD672BC1870 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C24E73EB6BDECEB034B11825 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotifeTests/Pods-SpotifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6E615D6443CB4FDA6CDAF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotifeUITests/Pods-SpotifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		357456AB1DD68AA80076C890 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				357456B51DD68AA80076C890 /* ViewController.swift in Sources */,
+				357456B51DD68AA80076C890 /* TableViewController.swift in Sources */,
+				357456E11DD69E5C0076C890 /* AudioVC.swift in Sources */,
 				357456B31DD68AA80076C890 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +604,7 @@
 		};
 		357456D81DD68AAD0076C890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEB9FA202896687219B5A63 /* Pods-Spotife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EEM8QJ4J6Y;
@@ -426,6 +618,7 @@
 		};
 		357456D91DD68AAD0076C890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6E60214C7EAEDC19C1A33C /* Pods-Spotife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EEM8QJ4J6Y;
@@ -439,6 +632,7 @@
 		};
 		357456DB1DD68AAD0076C890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A7A8A9C0D20153471C29F9 /* Pods-SpotifeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +648,7 @@
 		};
 		357456DC1DD68AAD0076C890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A912CC6D2CBA3F8DDF685F1D /* Pods-SpotifeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +664,7 @@
 		};
 		357456DE1DD68AAD0076C890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E3CC87AA07DC08902C39DE /* Pods-SpotifeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = EEM8QJ4J6Y;
@@ -483,6 +679,7 @@
 		};
 		357456DF1DD68AAD0076C890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A909366F68C4603294A460 /* Pods-SpotifeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = EEM8QJ4J6Y;
@@ -514,6 +711,7 @@
 				357456D91DD68AAD0076C890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		357456DA1DD68AAD0076C890 /* Build configuration list for PBXNativeTarget "SpotifeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +720,7 @@
 				357456DC1DD68AAD0076C890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		357456DD1DD68AAD0076C890 /* Build configuration list for PBXNativeTarget "SpotifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +729,7 @@
 				357456DF1DD68AAD0076C890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
